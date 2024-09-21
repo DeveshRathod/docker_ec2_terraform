@@ -1,0 +1,15 @@
+# Ignore node_modules and environment files
+node_modules/
+.env
+.DS_Store
+
+# Ignore everything inside /api and /client, but keep the folder names
+/api/*
+!/api/.gitkeep
+!/api/
+/client/*
+!/client/.gitkeep
+!/client/
+
+# Ignore .terraform directory
+.terraform/
