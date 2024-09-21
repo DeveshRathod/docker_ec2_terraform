@@ -3,13 +3,15 @@ node_modules/
 .env
 .DS_Store
 
-# Ignore everything inside /api and /client, but keep the folder names
+# Ignore everything inside /api except index.js
 /api/*
+!/api/index.js
 !/api/.gitkeep
-!/api/
+
+# Ignore everything inside /client except index.html
 /client/*
+!/client/index.html
 !/client/.gitkeep
-!/client/
 
 # Ignore .terraform directory
 .terraform/
